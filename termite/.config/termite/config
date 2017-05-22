@@ -1,0 +1,70 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+#font = Monospace 9
+#font = Terminus (TTF) 11
+font = Knack Nerd Font 10
+scrollback_lines = 1000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# set size hints for the window
+#size_hints = false
+
+# emit escape sequences for other keys modified by Control
+#modify_other_keys = false
+
+[colors]
+
+# special
+foreground      = #e0e3e1
+foreground_bold = #e0e3e1
+cursor          = #e0e3e1
+background      = #294050
+
+# black
+color0  = #282a2e
+color8  = #373b41
+
+# red
+color1  = #aa2323
+color9  = #f74646
+
+# green
+color2  = #7a841f
+color10 = #dbe95b
+
+# yellow
+color3  = #ec9050
+color11 = #f2c161
+
+# blue
+color4  = #5f819d
+color12 = #66a2d5
+
+# magenta
+color5  = #85678f
+color13 = #b294bb
+
+# cyan
+color6  = #5e8d87
+color14 = #8abeb7
+
+# white
+color7  = #707880
+color15 = #d2d0ce
+
+
