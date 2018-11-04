@@ -7,13 +7,14 @@ allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-#font = Monospace 9
+font = curie
+#font = ProFontIIx Nerd Font Mono
 #font = Terminus (TTF) 11
-font = Knack Nerd Font 10
+#font = Terminess Powerline 11 
 scrollback_lines = 1000
 search_wrap = true
 #icon_name = terminal
-#geometry = 640x480
+geometry = 700x500
 
 # "system", "on" or "off"
 cursor_blink = system
@@ -30,41 +31,40 @@ cursor_shape = block
 [colors]
 
 # special
-foreground      = #e0e3e1
-foreground_bold = #e0e3e1
-cursor          = #e0e3e1
-background      = #294050
+foreground      = #fce8c3
+foreground_bold = #fce8c3
+cursor          = #fce8c3
+background      = #1c1b19
 
 # black
-color0  = #282a2e
-color8  = #373b41
+color0  = #1c1b19
+color8  = #2d2b28
 
 # red
-color1  = #aa2323
-color9  = #f74646
+color1  = #ff3128
+color9  = #f75341
 
 # green
-color2  = #7a841f
-color10 = #dbe95b
+color2  = #519f50
+color10 = #98bc37
 
 # yellow
-color3  = #ec9050
-color11 = #f2c161
+color3  = #fbb829
+color11 = #fed06e
 
 # blue
-color4  = #5f819d
-color12 = #66a2d5
+color4  = #5573a3
+color12 = #8eb2f7
 
 # magenta
-color5  = #85678f
-color13 = #b294bb
+color5  = #e02c6d
+color13 = #e35682
 
 # cyan
-color6  = #5e8d87
-color14 = #8abeb7
+color6  = #0aaeb3
+color14 = #53fde9
 
 # white
-color7  = #707880
-color15 = #d2d0ce
-
+color7  = #918175
+color15 = #fce8c3
 
