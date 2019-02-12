@@ -20,9 +20,13 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
+Plug 'EinfachToll/DidYouMean'
 Plug 'mhartington/oceanic-next' 
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mhinz/vim-startify'
+Plug 'lervag/vimtex'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'ryanoasis/vim-devicons'
 
@@ -31,6 +35,7 @@ call plug#end()
 
 " Set a nerdfornt needed for devicons
 set guifont=DroidSansMono\ Nerd\ Font\ 11
+
 " Theme oceanic-next
 set termguicolors
 syntax enable
@@ -46,4 +51,40 @@ au Syntax * RainbowParenthesesLoadBraces
 " autocmd StdinReadPre * let s:std_in=1
 " autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+let g:airline_powerline_fonts = 1
+
 let g:webdevicons_enable = 1
+
+if !exists('g:airline_symbols')
+	let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.crypt = '🔒'
+let g:airline_symbols.linenr = '☰'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.maxlinenr = ''
+let g:airline_symbols.maxlinenr = '㏑'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.spell = 'Ꞩ'
+let g:airline_symbols.notexists = 'Ɇ'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" powerline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = '☰'
+let g:airline_symbols.maxlinenr = ''
