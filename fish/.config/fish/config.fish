@@ -1,2 +1,3 @@
-eval (python -m virtualfish)
-set SUMO_HOME "/home/blaze/sumo"
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
